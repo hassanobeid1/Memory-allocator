@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/cc  -I/usr/include -pthread -g -Wall -Werror -std=gnu11 -I/usr/include/python3.6m   -L/usr/lib64 -lgtest -pthread -lgtest_main -rdynamic CMakeFiles/memshell.dir/src/memshell.c.o  -o memshell  -Wl,-rpath,/home/ensimag/Documents/PCSE/TP1/ensimag-malloc/build libemalloc.so 

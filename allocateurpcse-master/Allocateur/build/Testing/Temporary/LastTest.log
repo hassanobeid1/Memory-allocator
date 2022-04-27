@@ -1,0 +1,59 @@
+Start testing: Oct 14 23:02 CEST
+----------------------------------------------------------
+1/1 Testing: AllTestsAllocator
+1/1 Test: AllTestsAllocator
+Command: "/home/ensimag/Documents/PCSE/TP1/ensimag-malloc/build/alloctest"
+Directory: /home/ensimag/Documents/PCSE/TP1/ensimag-malloc/build
+"AllTestsAllocator" start time: Oct 14 23:02 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 12 tests from 4 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from Mark
+[ RUN      ] Mark.mmix
+[       OK ] Mark.mmix (0 ms)
+[----------] 1 test from Mark (0 ms total)
+
+[----------] 7 tests from Basic
+[ RUN      ] Basic.zero
+[       OK ] Basic.zero (0 ms)
+[ RUN      ] Basic.onetinysmall
+[       OK ] Basic.onetinysmall (0 ms)
+[ RUN      ] Basic.onelargesmall
+[       OK ] Basic.onelargesmall (0 ms)
+[ RUN      ] Basic.onemedium
+[       OK ] Basic.onemedium (0 ms)
+[ RUN      ] Basic.onelarge
+[       OK ] Basic.onelarge (0 ms)
+[ RUN      ] Basic.oneallocloopsmall
+[       OK ] Basic.oneallocloopsmall (0 ms)
+[ RUN      ] Basic.oneallocloopmedium
+[       OK ] Basic.oneallocloopmedium (0 ms)
+[----------] 7 tests from Basic (0 ms total)
+
+[----------] 3 tests from Generic
+[ RUN      ] Generic.loopevenoddsmall
+[       OK ] Generic.loopevenoddsmall (0 ms)
+[ RUN      ] Generic.loopevenoddmedium
+[       OK ] Generic.loopevenoddmedium (1 ms)
+[ RUN      ] Generic.aleatoire
+[       OK ] Generic.aleatoire (7 ms)
+[----------] 3 tests from Generic (8 ms total)
+
+[----------] 1 test from Medium
+[ RUN      ] Medium.buddy
+[       OK ] Medium.buddy (0 ms)
+[----------] 1 test from Medium (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 12 tests from 4 test cases ran. (8 ms total)
+[  PASSED  ] 12 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"AllTestsAllocator" end time: Oct 14 23:02 CEST
+"AllTestsAllocator" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 14 23:02 CEST

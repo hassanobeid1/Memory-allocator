@@ -1,0 +1,1 @@
+/opt/rh/devtoolset-9/root/usr/bin/cc -fPIC  -I/usr/include -pthread -g -Wall -Werror -std=gnu11 -I/usr/include/python3.6m  -shared -Wl,-soname,libemalloc.so -o libemalloc.so CMakeFiles/emalloc.dir/src/mem.c.o CMakeFiles/emalloc.dir/src/mem_internals.c.o CMakeFiles/emalloc.dir/src/mem_small.c.o CMakeFiles/emalloc.dir/src/mem_medium.c.o CMakeFiles/emalloc.dir/src/mem_large.c.o 
